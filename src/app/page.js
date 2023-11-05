@@ -1,11 +1,10 @@
 import React from 'react'
-
 import { Product, FooterBanner, HeroBanner } from 'components/';
 
 const page = () => {
   return (
     <>
-      HeroBanner
+      <HeroBanner />
 
     <div className='products-heading'>
       <h2>Best Selling Trainers</h2>
@@ -17,7 +16,7 @@ const page = () => {
         (product) => product)}
     </div>
 
-      Footer
+      <FooterBanner />
     </>
   )
 }
